@@ -1,0 +1,144 @@
+"npc_dota_hero_dark_seer"
+{
+	"dark_seer_vacuum"
+	{
+		"cooldown_and_manacost"
+		{
+			"value" "8"
+			"operator" "OP_MULTIPLY"
+		}
+		"radius"
+		{
+			"value" "35"
+			"operator" "OP_ADD"
+			"max_count" "10"
+		}
+		"damage"
+		{
+			"value" "75"
+			"operator" "OP_ADD"
+		}
+	}
+	"dark_seer_ion_shell"
+	{
+		"cooldown_and_manacost"
+		{
+			"value" "8"
+			"operator" "OP_MULTIPLY"
+		}
+		"radius"
+		{
+			"value" "30"
+			"operator" "OP_ADD"
+			"max_count" "10"
+		}
+		"damage_per_second"
+		{
+			"value" "20"
+			"operator" "OP_ADD"
+		}
+	}
+	"dark_seer_surge"
+	{
+		"cooldown_and_manacost"
+		{
+			"value" "8"
+			"operator" "OP_MULTIPLY"
+		}
+		"duration"
+		{
+			"value" "1.0"
+			"operator" "OP_ADD"
+			"linked_special_values"
+			{
+				"trail_duration" "1"
+			}
+		}
+		"trail_radius"
+		{
+			"value" "30"
+			"operator" "OP_ADD"
+			"max_count" "10"
+			"linked_special_values"
+			{
+				"trail_damage" "10"
+			}
+		}
+	}
+	"dark_seer_wall_of_replica_lua"
+	{
+		"cooldown_and_manacost"
+		{
+			"value" "8"
+			"operator" "OP_MULTIPLY"
+			"max_count" "10"
+			"linked_abilities"
+			{
+				"dark_seer_normal_punch"
+				{
+					"cooldown_and_manacost"
+					{
+						"value" "8"
+						"operator" "OP_MULTIPLY"
+					}
+				}
+			}
+		}
+		"replica_damage_outgoing"
+		{
+			"value" "18"
+			"operator" "OP_ADD"
+			"linked_special_values"
+			{
+				"tooltip_outgoing" "18"
+			}
+			"linked_abilities"
+			{
+				"dark_seer_normal_punch"
+				{
+					"max_damage" "70"
+				}
+				// link to vanilla hidden ability for Normal Punch illusions to work with
+				"dark_seer_wall_of_replica"
+				{
+					"replica_damage_outgoing"	"18"
+					"tooltip_outgoing"			"18"
+				}
+			}
+		}
+		"replica_damage_incoming"
+		{
+			"value" "-20"
+			"operator" "OP_MULTIPLY"
+
+			"multiplicative_target"			"-100"
+			"multiplicative_base_value"		"100"
+
+			"linked_special_values"
+			{
+				"tooltip_replica_total_damage_incoming"
+				{
+					"value" "-20"
+
+					"operator" "OP_MULTIPLY"
+					"multiplicative_target" "0"
+				}
+			}
+
+			"linked_abilities"
+			{
+				"dark_seer_wall_of_replica"
+				{
+					"replica_damage_incoming"
+					{
+						"value" "-20"
+						"operator" "OP_MULTIPLY"
+
+						"multiplicative_target"			"-100"
+						"multiplicative_base_value"		"100"
+					}
+				}
+			}
+		}
+	}
+}

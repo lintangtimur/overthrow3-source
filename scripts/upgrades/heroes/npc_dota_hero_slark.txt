@@ -1,0 +1,87 @@
+"npc_dota_hero_slark"
+{
+	"slark_dark_pact"
+	{
+		"cooldown_and_manacost"
+		{
+			"value" "8"
+			"operator" "OP_MULTIPLY"
+			"max_count" "10"
+		}
+		"radius"
+		{
+			"value" "50"
+			"operator" "OP_ADD"
+			"max_count" "10"
+			"linked_special_values"
+			{
+				"self_damage_pct" "-3"
+			}
+		}
+		"total_damage"
+		{
+			"value" "90"
+			"operator" "OP_ADD"
+		}
+	}
+	"slark_pounce"
+	{
+		"cooldown_and_manacost"
+		{
+			"value" "8"
+			"operator" "OP_MULTIPLY"
+			"max_count" "10"
+		}
+		"leash_duration"
+		{
+			"value" "0.5"
+			"operator" "OP_ADD"
+			"max_count" "5"
+		}
+		"leash_radius"
+		{
+			"value" "-80"
+			"operator" "OP_ADD"
+			"max_count" "3"
+		}
+		"essence_stacks"
+		{
+			"value" "1"
+			"operator" "OP_ADD"
+			"max_count" "5"
+		}
+	}
+	"slark_essence_shift"
+	{
+	}
+	"slark_shadow_dance"
+	{
+		"cooldown_and_manacost"
+		{
+			"value" "8"
+			"operator" "OP_MULTIPLY"
+			"max_count" "10"
+			"linked_abilities"
+			{
+				"slark_depth_shroud"
+				{
+					"cooldown_and_manacost"
+					{
+						"value" "8"
+						"operator" "OP_MULTIPLY"
+					}
+				}
+			}
+		}
+		"bonus_regen"
+		{
+			"value" "40"
+			"operator" "OP_ADD"
+		}
+		"bonus_movement_speed"
+		{
+			"value" "16"
+			"operator" "OP_ADD"
+		}
+	}
+}
