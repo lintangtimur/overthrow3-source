@@ -4,16 +4,16 @@
 	{
 		"cooldown_and_manacost"
 		{
-			"value" "8"
+			"value" "10"
 			"operator" "OP_MULTIPLY"
-			"max_count" "10"
+			"max_count" "8"
 			"linked_abilities"	
 			{	
 				"kunkka_torrent_storm"	
 				{	
 					"cooldown_and_manacost"	
 					{	
-						"value" "8"	
+						"value" "10"	
 						"operator" "OP_MULTIPLY"	
 					}	
 				}	
@@ -29,7 +29,7 @@
 	{
 		"cooldown_and_manacost"
 		{
-			"value" "8"
+			"value" "10"
 			"operator" "OP_MULTIPLY"
 			"linked_abilities"
 			{
@@ -37,7 +37,7 @@
 				{
 					"cooldown_and_manacost"
 					{
-						"value" "8"
+						"value" "10"
 						"operator" "OP_MULTIPLY"
 					}
 				}
@@ -45,19 +45,19 @@
 		}
 		"cleave_distance"
 		{
-			"value" "55"
+			"value" "75"
 			"operator" "OP_ADD"
-			"max_count" "10"
+			"max_count" "8"
 			"linked_special_values"
 			{
 				"cleave_ending_width" "50"
-				"cleave_starting_width" "30"
+				"cleave_starting_width" "25"
 			}
 			"linked_abilities"
 			{
 				"kunkka_tidal_wave"
 				{
-					"radius" "40"
+					"radius" "60"
 					"knockback_distance" "30"
 					"speed" "35"
 				}
@@ -81,17 +81,17 @@
 	{
 		"cooldown_and_manacost"
 		{
-			"value" "8"
+			"value" "10"
 			"operator" "OP_MULTIPLY"
 		}
 		"duration"
 		{
-			"value" "0.6"
+			"value" "0.75"
 			"operator" "OP_ADD"
-			"max_count" "5"
+			"max_count" "4"
 			"linked_special_values"
 			{
-				"allied_duration" "1.2"
+				"allied_duration" "1.5"
 			}
 		}
 	}
@@ -110,12 +110,12 @@
 		}
 		"ghostship_width"
 		{
-			"value" "30"
+			"value" "35"
 			"operator" "OP_ADD"
 			"max_count" "10"
 			"linked_special_values"
 			{
-				"movespeed_bonus" "3"
+				"movespeed_bonus" "5"
 			}
 		}
 	}

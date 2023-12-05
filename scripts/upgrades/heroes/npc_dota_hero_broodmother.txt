@@ -4,9 +4,9 @@
 	{
 		"cooldown_and_manacost"
 		{
-			"value" "8"
+			"value" "9"
 			"operator" "OP_MULTIPLY"
-			"max_count" "6"
+			"max_count" "7"
 		}
 		"bonus_damage"
 		{
@@ -36,12 +36,12 @@
 	{
 		"cooldown_and_manacost"
 		{
-			"value" "8"
+			"value" "12"
 			"operator" "OP_MULTIPLY"
 		}
 		"impact_damage"
 		{
-			"value" "50"
+			"value" "70"
 			"operator" "OP_ADD"
 			"linked_special_values"
 			{
@@ -53,7 +53,7 @@
 	{
 		"cooldown_and_manacost"
 		{
-			"value" "8"
+			"value" "10"
 			"operator" "OP_MULTIPLY"
 			"linked_abilities"
 			{
@@ -61,7 +61,7 @@
 				{
 					"cooldown_and_manacost"
 					{
-						"value" "8"
+						"value" "10"
 						"operator" "OP_MULTIPLY"
 					}
 				}
@@ -89,11 +89,11 @@
 		}
 		"tooltip_spiderling_hp"
 		{
-			"value" "250"
+			"value" "300"
 			"operator" "OP_ADD"
 			"linked_special_values"
 			{
-				"hp_bonus" "250"
+				"hp_bonus" "300"
 			}
 			"linked_abilities"
 			{
@@ -103,7 +103,7 @@
 				}
 				"broodmother_buff_spiderling_lua"
 				{
-					"buff_hp" "50"
+					"buff_hp" "60"
 				}
 			}
 		}

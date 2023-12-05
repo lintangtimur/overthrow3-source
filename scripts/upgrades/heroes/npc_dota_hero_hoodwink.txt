@@ -96,6 +96,7 @@
 		{
 			"value" "8"
 			"operator" "OP_MULTIPLY"
+			"max_count" "20"
 			"linked_abilities"
 			{
 				"hoodwink_decoy"

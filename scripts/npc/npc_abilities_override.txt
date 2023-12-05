@@ -605,15 +605,14 @@
 	// OT3 hero buffs/changes
 
 	// Only affects the talent visually
-	"special_bonus_unique_furion_2"
+	"furion_force_of_nature"
 	{
-		"AbilitySpecial"
+		"AbilityValues"
 		{
-			"01"
+			"max_treants"
 			{
-				"var_type"					"FIELD_INTEGER"
-				"value"				"2"
-				"ad_linked_abilities"			"furion_force_of_nature"				// this is the ability this bonus affects.  This line is required for Ability Draft to correctly choose talents.
+				"value"							"2"
+				"special_bonus_unique_furion_2"	"+2"
 			}
 		}
 	}
@@ -821,6 +820,18 @@
 				"var_type"					"FIELD_FLOAT"
 				"value2"				"0"
 				"ad_linked_abilities"			"phoenix_icarus_dive"				// this is the ability this bonus affects.  This line is required for Ability Draft to correctly choose talents.
+			}
+		}
+	}
+	
+	"ancient_apparition_chilling_touch"
+	{
+		"AbilityValues"
+		{
+			"attack_range_bonus"
+			{
+				"value"				"60 120 180 240"
+				"special_bonus_unique_ancient_apparition_7"		"+160"
 			}
 		}
 	}

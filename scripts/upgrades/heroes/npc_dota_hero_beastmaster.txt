@@ -18,12 +18,12 @@
 		}
 		"radius"
 		{
-			"value" "30"
+			"value" "35"
 			"operator" "OP_ADD"
 			"max_count" "10"
 			"linked_special_values"
 			{
-				"spread" "20"
+				"spread" "25"
 			}
 		}
 	}
@@ -31,7 +31,7 @@
 	{
 		"cooldown_and_manacost"
 		{
-			"value" "8"
+			"value" "10"
 			"operator" "OP_MULTIPLY"
 			"max_count" "10"
 			"linked_abilities"
@@ -48,11 +48,11 @@
 		}
 		"boar_base_damage"
 		{
-			"value" "25"
+			"value" "30"
 			"operator" "OP_ADD"
 			"linked_special_values"
 			{
-				"boar_base_max_health" "250"
+				"boar_base_max_health" "300"
 			}
 		}
 	}
@@ -83,9 +83,9 @@
 	{
 		"radius"
 		{
-			"value" "200"
+			"value" "300"
 			"operator" "OP_ADD"
-			"max_count" "10"
+			"max_count" "6"
 		}
 		"bonus_attack_speed"
 		{
@@ -97,13 +97,13 @@
 	{
 		"cooldown_and_manacost"
 		{
-			"value" "8"
+			"value" "10"
 			"operator" "OP_MULTIPLY"
-			"max_count" "14"
+			"max_count" "10"
 		}
 		"damage_radius"
 		{
-			"value" "40"
+			"value" "60"
 			"operator" "OP_ADD"
 			"max_count" "10"
 			"linked_special_values"

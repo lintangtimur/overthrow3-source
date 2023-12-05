@@ -4,7 +4,7 @@
 	{
 		"cooldown_and_manacost"
 		{
-			"value" "8"
+			"value" "9"
 			"operator" "OP_MULTIPLY"
 			"max_count" "10"
 			"linked_abilities"
@@ -13,7 +13,7 @@
 				{
 					"cooldown_and_manacost"
 					{
-						"value" "8"
+						"value" "9"
 						"operator" "OP_MULTIPLY"
 					}
 				}
@@ -21,7 +21,7 @@
 		}
 		"sprout_damage"
 		{
-			"value" "8"
+			"value" "10"
 			"operator" "OP_ADD"
 			"linked_abilities"
 			{
@@ -33,14 +33,14 @@
 		}
 		"sprout_damage_radius"
 		{
-			"value" "30"
+			"value" "35"
 			"operator" "OP_ADD"
 			"max_count"	"10"
 			"linked_special_values"
 			{
 				"vision_range"
 				{
-					"value" "30"
+					"value" "35"
 					"operator" "OP_ADD"
 				}
 			}
@@ -50,7 +50,7 @@
 				{
 					"radius"
 					{
-						"value" "30"
+						"value" "35"
 						"operator" "OP_ADD"
 					}
 					"range"
@@ -90,17 +90,24 @@
 	{
 		"cooldown_and_manacost"
 		{
-			"value" "8"
+			"value" "10"
 			"operator" "OP_MULTIPLY"
-			"max_count" "10"
-			"linked_special_values"
-			{
-				"duration" "10"
-			}
+			"max_count" "8"
 		}
 		"treant_damage"
 		{
-			"value" 		"45"
+			"value" 		"50"
+
+			"talents"
+			{
+				"special_bonus_unique_furion"	"x2.5"
+			}
+
+			"operator" "OP_ADD"
+		}
+		"treant_hp"
+		{
+			"value" "500"
 
 			"talents"
 			{
@@ -114,34 +121,23 @@
 				"treant_movespeed"		"20"
 			}
 		}
-		"treant_hp"
-		{
-			"value" "700"
-
-			"talents"
-			{
-				"special_bonus_unique_furion"	"x2.5"
-			}
-
-			"operator" "OP_ADD"
-		}
 	}
 	"furion_wrath_of_nature"
 	{
 		"cooldown_and_manacost"
 		{
-			"value" "8"
+			"value" "9"
 			"operator" "OP_MULTIPLY"
 			"max_count" "10"
 		}
 		"damage"
 		{
-			"value" "60"
+			"value" "65"
 			"operator" "OP_ADD"
 		}
 		"damage_percent_add"
 		{
-			"value" "3"
+			"value" "3.5"
 			"operator" "OP_MULTIPLY"
 
 			"multiplicative_target"			"35"

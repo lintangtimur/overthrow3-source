@@ -4,15 +4,15 @@
 	{
 		"duration"
 		{
-			"value" "0.75"
+			"value" "0.6"
 			"operator" "OP_ADD"
-			"max_count" "4"
+			"max_count" "5"
 			
 			"linked_abilities"
 			{
 				"meepo_petrify"
 				{
-					"duration" "0.5"
+					"duration" "0.6"
 				}
 			}
 		}

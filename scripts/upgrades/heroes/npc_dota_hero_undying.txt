@@ -4,7 +4,7 @@
 	{
 		"cooldown_and_manacost"
 		{
-			"value" "8"
+			"value" "10"
 			"operator" "OP_MULTIPLY"
 			"max_count" "5"
 		}
@@ -24,12 +24,12 @@
 	{
 		"cooldown_and_manacost"
 		{
-			"value" "8"
+			"value" "10"
 			"operator" "OP_MULTIPLY"
 		}
 		"damage_per_unit"
 		{
-			"value" "10"
+			"value" "12"
 			"operator" "OP_ADD"
 			"linked_special_values"
 			{
@@ -38,12 +38,12 @@
 		}
 		"max_units"
 		{
-			"value" "2"
+			"value" "4"
 			"operator" "OP_ADD"
-			"max_count" "10"
+			"max_count" "5"
 			"linked_special_values"
 			{
-				"radius" "130"
+				"radius" "260"
 			}
 		}
 	}
@@ -70,13 +70,13 @@
 		}
 		"damage_amp"
 		{
-			"value" "4"
+			"value" "5"
 			"operator" "OP_ADD"
 			"max_count" "5"
 		}
 		"str_percentage"
 		{
-			"value" "4"
+			"value" "5"
 			"operator" "OP_ADD"
 			"max_count" "5"
 		}

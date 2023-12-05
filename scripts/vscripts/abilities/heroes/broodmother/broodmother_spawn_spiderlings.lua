@@ -49,6 +49,7 @@ function broodmother_spawn_spiderlings:SpawnSpiderlings(target)
 	local count = self:GetSpecialValueFor("count")
 	local spiderling_duration = self:GetSpecialValueFor("spiderling_duration")
 	local spiderling_health = self:GetSpecialValueFor("tooltip_spiderling_hp")
+	local bonus_damage = self:GetSpecialValueFor("damage_bonus")
 	print(spiderling_health)
 
 	local spawn_count = math.max(count - #self.summon_list, 0)
@@ -60,6 +61,9 @@ function broodmother_spawn_spiderlings:SpawnSpiderlings(target)
 
 		spiderling:SetBaseMaxHealth(spiderling_health)
 		spiderling:SetHealth(spiderling_health)
+
+		spiderling:SetBaseDamageMin(spiderling:GetBaseDamageMin() + bonus_damage)
+		spiderling:SetBaseDamageMax(spiderling:GetBaseDamageMax() + bonus_damage)
 
 		spiderling.original_attack_damage = (spiderling:GetBaseDamageMin() + spiderling:GetBaseDamageMax()) / 2
 

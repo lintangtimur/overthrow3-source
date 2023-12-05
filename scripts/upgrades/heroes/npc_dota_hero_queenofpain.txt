@@ -17,14 +17,13 @@
 				"duration_heal" "5"
 			}
 		}
-		"duration_damage"
+		"damage_interval"
 		{
-			"value" "20"
-			"operator" "OP_ADD"
-			"linked_special_values"
-			{
-				"duration_heal" "10"
-			}
+			"value" "-0.25"
+			"operator" "OP_MULTIPLY"
+
+			"multiplicative_target"			"0"
+			"multiplicative_base_value"		"2.3"
 		}
 	}
 	"queenofpain_blink"
@@ -43,7 +42,7 @@
 		}
 		"shard_damage"
 		{
-			"value" "30"
+			"value" "40"
 			"operator" "OP_ADD"
 		}
 	}

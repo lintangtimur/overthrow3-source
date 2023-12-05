@@ -43,6 +43,7 @@
 		{
 			"value" "8"
 			"operator" "OP_MULTIPLY"
+			"max_count" "10"
 			"linked_abilities"
 			{
 				"naga_siren_reel_in"
@@ -55,17 +56,17 @@
 				}
 			}
 		}
-		"duration"
+	}
+	"naga_siren_reel_in"
+	{
+		"pull_strength"
 		{
-			"value" "0.5"
+			"value" "30"
 			"operator" "OP_ADD"
 			"max_count" "5"
-			"linked_abilities"
+			"linked_special_values"
 			{
-				"naga_siren_reel_in"
-				{
-					"pull_strength" "30"
-				}
+				"radius" "180"
 			}
 		}
 	}

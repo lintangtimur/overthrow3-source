@@ -4,7 +4,7 @@
 	{
 		"cooldown_and_manacost"
 		{
-			"value" "8"
+			"value" "11"
 			"operator" "OP_MULTIPLY"
 		}
 		"starfall_radius"
@@ -20,7 +20,7 @@
 			{
 				"mirana_arrow"
 				{
-					"scepter_radius" "30"
+					"scepter_radius" "35"
 				}
 			}
 		}
@@ -38,7 +38,7 @@
 	{
 		"cooldown_and_manacost"
 		{
-			"value" "8"
+			"value" "10"
 			"operator" "OP_MULTIPLY"
 			"max_count" "5"
 		}
@@ -53,9 +53,9 @@
 		}
 		"arrow_max_stunrange"
 		{
-			"value" "-300"
+			"value" "-375"
 			"operator" "OP_ADD"
-			"max_count" "5"
+			"max_count" "4"
 		}
 	}
 	"mirana_leap"
@@ -72,8 +72,8 @@
 			"max_count" "6"
 			"linked_special_values"
 			{
-				"shard_radius" "80"
-				"shard_radius_end" "80"
+				"shard_radius" "90"
+				"shard_radius_end" "90"
 			}
 		}
 		"leap_speedbonus_as"
@@ -97,9 +97,9 @@
 		}
 		"bonus_movement_speed"
 		{
-			"value" "10"
+			"value" "15"
 			"operator" "OP_ADD"
-			"max_count" "10"
+			"max_count" "6"
 		}
 	}
 }

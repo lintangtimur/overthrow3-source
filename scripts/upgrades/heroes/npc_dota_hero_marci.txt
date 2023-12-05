@@ -4,7 +4,7 @@
 	{
 		"cooldown_and_manacost"
 		{
-			"value" "12"
+			"value" "15"
 			"operator" "OP_MULTIPLY"
 			"max_count" "10"
 			"linked_special_values"
@@ -19,12 +19,12 @@
 			"max_count" "10"
 			"linked_special_values"
 			{
-				"landing_radius" "70"
+				"landing_radius" "80"
 			}
 		}
 		"impact_damage"
 		{
-			"value" "140"
+			"value" "150"
 			"operator" "OP_ADD"
 		}
 	}
@@ -42,7 +42,7 @@
 		}
 		"landing_radius"
 		{
-			"value" "40"
+			"value" "45"
 			"operator" "OP_ADD"
 			"max_count" "10"
 			"linked_special_values"
@@ -52,7 +52,7 @@
 		}
 		"impact_damage"
 		{
-			"value" "100"
+			"value" "125"
 			"operator" "OP_ADD"
 		}
 	}

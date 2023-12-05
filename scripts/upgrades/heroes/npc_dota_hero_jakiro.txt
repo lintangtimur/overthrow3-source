@@ -4,12 +4,12 @@
 	{
 		"cooldown_and_manacost"
 		{
-			"value" "10"
+			"value" "11"
 			"operator" "OP_MULTIPLY"
 		}
 		"burn_damage"
 		{
-			"value"			"12"
+			"value"	"12"
 			"operator" "OP_ADD"
 			"talents"
 			{
@@ -18,12 +18,12 @@
 		}
 		"end_radius"
 		{
-			"value" "35"
+			"value" "40"
 			"operator" "OP_ADD"
 			"max_count" "10"
 			"linked_special_values"
 			{
-				"start_radius" "35"
+				"start_radius" "40"
 			}
 		}
 	}
@@ -42,7 +42,7 @@
 		}
 		"path_radius"
 		{
-			"value" "30"
+			"value" "35"
 			"operator" "OP_ADD"
 			"max_count" "5"
 		}
@@ -51,7 +51,7 @@
 	{
 		"cooldown_and_manacost"
 		{
-			"value" "12"
+			"value" "15"
 			"operator" "OP_MULTIPLY"
 			"linked_abilities"
 			{
@@ -59,7 +59,7 @@
 				{
 					"cooldown_and_manacost"
 					{
-						"value" "12"
+						"value" "15"
 						"operator" "OP_MULTIPLY"
 					}
 				}
@@ -67,14 +67,14 @@
 		}
 		"radius"
 		{
-			"value" "45"
+			"value" "60"
 			"operator" "OP_ADD"
 			"max_count" "10"
 			"linked_abilities"
 			{
 				"jakiro_liquid_ice"
 				{
-					"radius" "45"
+					"radius" "60"
 				}
 			}
 		}

@@ -53,7 +53,7 @@
 			{
 				"keeper_of_the_light_spirit_form_illuminate"
 				{
-					"total_damage" "90"
+					"total_damage" "80"
 				}
 				"keeper_of_the_light_will_o_wisp"
 				{

@@ -1865,6 +1865,7 @@ If you do not send us your steam URL or steamID we wont be adle to grant you ben
 		"upgrade_DOTA_Tooltip_ability_marci_companion_run_ally_movespeed_pct"    "ALLY BONUS MOVEMENT SPEED"
 		"upgrade_DOTA_Tooltip_ability_templar_assassin_psionic_trap_trap_radius"    "RADIUS"
 		"upgrade_DOTA_Tooltip_ability_windrunner_shackleshot_shackle_count"    "SHACKLE COUNT"
+		"upgrade_DOTA_Tooltip_ability_naga_siren_reel_in_radius"    "RANGE"
 
 
 		"team_selection_empty_slot"	"Empty Slot"
@@ -3028,9 +3029,10 @@ If you do not send us your steam URL or steamID we wont be adle to grant you ben
 		"banner_server_errors_header"		"Dedicated Server Issues"
 		"banner_server_errors_description"	"Some of Valve's custom game servers (particularly during peak player counts) are currently unable to connect to external servers which prevents us from using our backend servers to enable perks, mmr, cosmetics, transactions and in-game currencies. We've tried everything we can to fix this issue but unfortunately we have to wait for Valve to fix it. Until then, please avoid playing on those servers."
 
-		"auto_select_header"	"Auto Select<br>Favorite Ability"
+		"auto_select_header"	"Auto Select<br>Favorite Upgrade"
 		"auto_select_plus"	"+{s:as_time_step}s"
 		"auto_select_minus"	"-{s:as_time_step}s"
 		"auto_select_current_time"	"{s:as_current_time} sec"
+		"upgrades_panel_generic_toggler"	"Generic Upgrades"
     }
 }

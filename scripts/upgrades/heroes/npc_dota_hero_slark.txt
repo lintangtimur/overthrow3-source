@@ -10,7 +10,7 @@
 		}
 		"radius"
 		{
-			"value" "50"
+			"value" "70"
 			"operator" "OP_ADD"
 			"max_count" "10"
 			"linked_special_values"
@@ -20,7 +20,7 @@
 		}
 		"total_damage"
 		{
-			"value" "90"
+			"value" "100"
 			"operator" "OP_ADD"
 		}
 	}
@@ -34,15 +34,15 @@
 		}
 		"leash_duration"
 		{
-			"value" "0.5"
+			"value" "0.75"
 			"operator" "OP_ADD"
-			"max_count" "5"
+			"max_count" "3"
 		}
 		"leash_radius"
 		{
-			"value" "-80"
+			"value" "-125"
 			"operator" "OP_ADD"
-			"max_count" "3"
+			"max_count" "2"
 		}
 		"essence_stacks"
 		{
@@ -53,6 +53,12 @@
 	}
 	"slark_essence_shift"
 	{
+		"agi_gain"
+		{
+			"value" "0.25"
+			"operator" "OP_ADD"
+			"min_rarity" "epic"
+		}
 	}
 	"slark_shadow_dance"
 	{

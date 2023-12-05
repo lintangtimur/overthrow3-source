@@ -3,6 +3,7 @@ modifier_broodmother_spawn_spiderlings_lua = class({})
 function modifier_broodmother_spawn_spiderlings_lua:IsDebuff() return true end
 function modifier_broodmother_spawn_spiderlings_lua:GetEffectName() return "particles/units/heroes/hero_broodmother/broodmother_spiderlings_debuff.vpcf" end
 function modifier_broodmother_spawn_spiderlings_lua:GetEffectAttachType() return PATTACH_ABSORIGIN_FOLLOW end
+function modifier_broodmother_spawn_spiderlings_lua:GetAttributes() return MODIFIER_ATTRIBUTE_MULTIPLE end
 
 function modifier_broodmother_spawn_spiderlings_lua:OnDestroy()
 	if IsClient() then return end

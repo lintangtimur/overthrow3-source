@@ -6,6 +6,7 @@
 		{
 			"value" "8"
 			"operator" "OP_MULTIPLY"
+			"max_count" "10"
 			
 			"linked_abilities"
 			{

@@ -4,7 +4,7 @@
 	{
 		"cooldown_and_manacost"
 		{
-			"value" "8"
+			"value" "10"
 			"operator" "OP_MULTIPLY"
 		}
 		"damage_per_second"
@@ -19,7 +19,7 @@
 			"max_count" "10"
 			"linked_special_values"
 			{
-				"radius" "40"
+				"radius" "50"
 			}
 		}
 	}
@@ -47,7 +47,7 @@
 	{
 		"cooldown_and_manacost"
 		{
-			"value" "8"
+			"value" "12"
 			"operator" "OP_MULTIPLY"
 			"linked_special_values"
 			{
@@ -60,7 +60,7 @@
 		}
 		"radius"
 		{
-			"value" "35"
+			"value" "40"
 			"operator" "OP_ADD"
 			"max_count" "10"
 			"linked_special_values"
@@ -78,14 +78,14 @@
 	{
 		"cooldown_and_manacost"
 		{
-			"value" "8"
+			"value" "10"
 			"operator" "OP_MULTIPLY"
 			"max_count" "10"
 			"linked_abilities"
 			{
 				"ember_spirit_activate_fire_remnant"
 				{
-					"cooldown_and_manacost" "8"
+					"cooldown_and_manacost" "10"
 				}
 			}
 		}
@@ -107,18 +107,18 @@
 		}
 		"radius"
 		{
-			"value" "40"
+			"value" "50"
 			"operator" "OP_ADD"
 			"max_count" "10"
 			"linked_special_values"
 			{
-				"shard_radius" "40"
+				"shard_radius" "50"
 			}
 			"linked_abilities"
 			{
 				"ember_spirit_activate_fire_remnant"
 				{
-					"radius" "40"
+					"radius" "50"
 				}
 			}
 		}

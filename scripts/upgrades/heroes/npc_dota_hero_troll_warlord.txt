@@ -90,7 +90,7 @@
 		{
 			"value" "8"
 			"operator" "OP_MULTIPLY"
-			"max_count" "20"
+			"max_count" "15"
 		}
 		"lifesteal"
 		{
@@ -106,7 +106,7 @@
 		{
 			"value" "1"
 			"operator" "OP_ADD"
-			"max_count" "10"
+			"max_count" "5"
 		}
 	}
 }
