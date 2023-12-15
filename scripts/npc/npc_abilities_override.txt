@@ -224,7 +224,7 @@
 
 	"faceless_void_chronosphere"
 	{
-		"AbilityCooldown"				"110 105 100"
+		"AbilityCooldown"				"120 115 110"
 	}
 
 	"obsidian_destroyer_sanity_eclipse"

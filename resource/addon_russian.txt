@@ -74,15 +74,15 @@
 
 		// Broodmother
 		"DOTA_Tooltip_ability_broodmother_buff_spiderling_lua"								"Buff Spiderling"
-		"DOTA_Tooltip_ability_broodmother_buff_spiderling_lua_Description"					"Наносит дебафф целям при атаке. Если жертва умрет под действием дебаффф, все паучки получат бонус к урону и здоровью."
+		"DOTA_Tooltip_ability_broodmother_buff_spiderling_lua_Description"					"Наносит дебафф целям при атаке. Если жертва умрет под действием дебаффа, все паучки получат бонус к урону, здоровью и увеличат время жизни."
 		"DOTA_Tooltip_ability_broodmother_buff_spiderling_lua_debuff_duration"				"ДЛИТЕЛЬНОСТЬ ДЕБАФФА:"
 		"DOTA_Tooltip_ability_broodmother_buff_spiderling_lua_buff_damage"					"БОНУС К УРОНУ:"
 		"DOTA_Tooltip_ability_broodmother_buff_spiderling_lua_buff_hp"						"БОНУС К ЗДОРОВЬЮ:"
 
 		"DOTA_Tooltip_modifier_broodmother_spiderling_lua"									"Spiderling Buff"
-		"DOTA_Tooltip_modifier_broodmother_spiderling_lua_Description"						"Паучки получают урон и здоровье за убийства."
+		"DOTA_Tooltip_modifier_broodmother_spiderling_lua_Description"						"Паучки получают бонус к урону, здоровью и увеличивают время жизни за убийства."
 		"DOTA_Tooltip_modifier_broodmother_spiderling_debuff_lua"							"Spiderling Debuff"
-		"DOTA_Tooltip_modifier_broodmother_spiderling_debuff_lua_Description"				"При смерти даст паучкам бонусное здоровье и урон."
+		"DOTA_Tooltip_modifier_broodmother_spiderling_debuff_lua_Description"				"При смерти даст паучкам бонусное здоровье, урон и увеличит их время жизни."
 
 		"DOTA_Tooltip_modifier_broodmother_spawn_spiderlings_lua"			"Spawn Spiderlings"
 		"DOTA_Tooltip_modifier_broodmother_spawn_spiderlings_lua_Description"		"Призовет паучков при смерти."
@@ -1857,6 +1857,8 @@
 		"upgrade_DOTA_Tooltip_ability_marci_companion_run_ally_movespeed_pct"    "БОНУС СКОРОСТИ ПЕРЕДВИЖЕНИЯ ДЛЯ СОЮЗНИКОВ"
 		"upgrade_DOTA_Tooltip_ability_templar_assassin_psionic_trap_trap_radius"    "РАДИУС"
 		"upgrade_DOTA_Tooltip_ability_windrunner_shackleshot_shackle_count"    "КОЛИЧЕСТВО SHACKLE"
+        "upgrade_DOTA_Tooltip_ability_naga_siren_reel_in_radius"    "ДАЛЬНОСТЬ"
+
 
 
 		"team_selection_empty_slot"	"Пустой слот"
@@ -2227,7 +2229,7 @@
 		"game_breaker_description"					"Даруется игрокам как награда за помощь в исправлении некоторых багов/уязвимостей <3"
 
 		"legendary_lagresse_used"		"%ARROW%Использовал%ARROW%<img src='file://{images}/custom_game/orb_rare_mini.png'/> <font color='#0084ff'>Легендарные Щедроты</font>, все игроки получают <font color='#0084ff'>Редкое Улучшение</font>"
-		"breathtaking_benefaction_used"	"%ARROW%Использовал%ARROW%<img src='file://{images}/custom_game/orb_rare_mini.png'/> <font color='#ea00ff'>Завораживающую Милость</font>, все игроки получают <font color='#ea00ff'>Эпическое Улучшение</font>"
+		"breathtaking_benefaction_used"	"%ARROW%Использовал%ARROW%<img src='file://{images}/custom_game/orb_epic_mini.png'/> <font color='#ea00ff'>Завораживающую Милость</font>, все игроки получают <font color='#ea00ff'>Эпическое Улучшение</font>"
 		"gg_token_used"					"%ARROW%Использовал%ARROW%<img src='file://{images}/custom_game/gg_token_mini.png'/> <font color='#ffdd10'>Токен Хорошей Игры</font>!"
 
 		"map_bp_no_items"	"Заходите каждый день для получения бесплатых наград!"
@@ -2764,7 +2766,7 @@
 		"furion_force_of_nature_custom_CustomHint"		"Призывает меньшее число энтов, но они имеют увеличенные урон и здоровье."
 		"ot3_abaddon_borrowed_time_CustomHint_scepter"	"Mist Coil может сработать максимум 5 раз на каждого союзника."
 		"dark_seer_wall_of_replica_lua_CustomHint"		"Если вражесккий герой пересечет несколько стен, он создаст одну усиленную иллюзию вместо нескольких стандартных."
-		"broodmother_spawn_spiderlings_CustomHint"		"Может призвать максимум %count% паучков, попытка призыва пучков сверх этого числа будет усилять существующих паучков."
+		"broodmother_spawn_spiderlings_CustomHint"		"Может призвать максимум %count% паучков, попытка призыва пучков сверх этого числа будет усилять существующих паучков с бонусным уроном, здоровьем и временем жизни (макс. время жизни - 120)."
 		"undying_soul_rip_custom_CustomHint"			"Считает усиленных зомби как несколько существ."
 		"undying_tombstone_custom_CustomHint"			"Создает только одного зомби для каждого врага, зомби становится сильнее после каждого тика."
 		"venomancer_venomous_gale_CustomHint_shard"		"Создает только один тотем. Его характеристики увеличены."

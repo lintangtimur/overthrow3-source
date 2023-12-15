@@ -50,7 +50,7 @@ function broodmother_spawn_spiderlings:SpawnSpiderlings(target)
 	local spiderling_duration = self:GetSpecialValueFor("spiderling_duration")
 	local spiderling_health = self:GetSpecialValueFor("tooltip_spiderling_hp")
 	local bonus_damage = self:GetSpecialValueFor("damage_bonus")
-	print(spiderling_health)
+
 
 	local spawn_count = math.max(count - #self.summon_list, 0)
 	local meat_count = count - spawn_count
@@ -83,7 +83,8 @@ function broodmother_spawn_spiderlings:SpawnSpiderlings(target)
 
 	local health_bonus = spiderling_health * meat_count / #self.summon_list
 	local damage_bonus = self.summon_list[1].original_attack_damage * meat_count / #self.summon_list
-	local lifetime_bonus = spiderling_duration * meat_count / #self.summon_list
+
+	local has_spiderling_debuff = target:HasModifier("modifier_broodmother_spiderling_debuff_lua")
 
 	for _, spiderling in ipairs(self.summon_list) do
 		spiderling:SetBaseMaxHealth(spiderling:GetBaseMaxHealth() + health_bonus)
@@ -95,8 +96,10 @@ function broodmother_spawn_spiderlings:SpawnSpiderlings(target)
 		spiderling:SetBaseDamageMin(spiderling:GetBaseDamageMin() + damage_bonus)
 		spiderling:SetBaseDamageMax(spiderling:GetBaseDamageMax() + damage_bonus)
 
-		--local modifier = spiderling:FindModifierByName("modifier_kill")
-		--if modifier then modifier:SetDuration(modifier:GetRemainingTime() + lifetime_bonus, true) end
+		if not has_spiderling_debuff then -- spiderling debuff also extends duration on target death, so omit of present
+			local buff_modifier = spiderling:FindModifierByName("modifier_broodmother_spiderling_lua")
+			if buff_modifier and not buff_modifier:IsNull() then buff_modifier:ExtendLifetime() end
+		end
 	end
 end
 

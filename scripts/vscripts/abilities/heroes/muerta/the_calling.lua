@@ -173,7 +173,9 @@ end
 function modifier_muerta_the_calling_lua_thinker:OnDestroy()
 	if not IsServer() then return end
 	for _, revenant in pairs(self.revenants) do
-		revenant:Destroy()
+		if IsValidEntity(revenant) then
+			revenant:Destroy()
+		end
 	end
 
 	ParticleManager:ReleaseParticleIndex(self.effect_cast)
@@ -276,7 +278,9 @@ function modifier_muerta_the_calling_lua_revenant:Update(dt)
 		end
 	end
 
-	self.unit:SetAbsOrigin(position)
+	if IsValidEntity(self.unit) then
+		self.unit:SetAbsOrigin(position)
+	end
 end
 
 function modifier_muerta_the_calling_lua_revenant:GetPosition()

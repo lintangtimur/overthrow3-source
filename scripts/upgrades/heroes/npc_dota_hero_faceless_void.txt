@@ -71,7 +71,7 @@
 		{
 			"value" "8"
 			"operator" "OP_MULTIPLY"
-			"max_count" "15"
+			"max_count" "10"
 		}
 		"radius"
 		{

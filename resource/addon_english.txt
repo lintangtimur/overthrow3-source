@@ -2738,18 +2738,19 @@ If you do not send us your steam URL or steamID we wont be adle to grant you ben
 		"DOTA_Tooltip_ability_chaos_knight_phantasm_lua_incoming_damage_tooltip_scepter"	"%SCEPTER PHANTASM DAMAGE TAKEN:"
 
 		"DOTA_Tooltip_ability_broodmother_buff_spiderling_lua"								"Buff Spiderling"
-		"DOTA_Tooltip_ability_broodmother_buff_spiderling_lua_Description"					"Applies debuff on attack. If debuffed unit dies, all spiderlings will receive a damage and hp boost."
+		"DOTA_Tooltip_ability_broodmother_buff_spiderling_lua_Description"					"Applies debuff on attack. If debuffed unit dies, all spiderlings will receive bonus damage, health and lifetime."
 		"DOTA_Tooltip_ability_broodmother_buff_spiderling_lua_debuff_duration"				"DEBUFF DURATION:"
 		"DOTA_Tooltip_ability_broodmother_buff_spiderling_lua_buff_damage"					"SPIDERLING DAMAGE BUFF:"
 		"DOTA_Tooltip_ability_broodmother_buff_spiderling_lua_buff_hp"						"SPIDERLING HP BUFF:"
 
 		"DOTA_Tooltip_modifier_broodmother_spiderling_lua"									"Spiderling Buff"
-		"DOTA_Tooltip_modifier_broodmother_spiderling_lua_Description"						"With every successful kill the spiderlings gain damage and hp."
+		"DOTA_Tooltip_modifier_broodmother_spiderling_lua_Description"						"With every successful kill the spiderlings gain bonus damage, health and lifetime."
 		"DOTA_Tooltip_modifier_broodmother_spiderling_debuff_lua"							"Spiderling Debuff"
-		"DOTA_Tooltip_modifier_broodmother_spiderling_debuff_lua_Description"				"If killed, will buff spiderling damage and hp."
+		"DOTA_Tooltip_modifier_broodmother_spiderling_debuff_lua_Description"				"If killed, will buff spiderling damage, health and lifetime."
 
 		"DOTA_Tooltip_modifier_broodmother_spawn_spiderlings_lua"			"Spawn Spiderlings"
 		"DOTA_Tooltip_modifier_broodmother_spawn_spiderlings_lua_Description"		"If killed, will spawn a number of Spiderlings."
+		"DOTA_Tooltip_ability_broodmother_spawn_spiderlings_Note1"						"Spiderlings apply a debuff to enemies that empowers existing Spiderlings when that enemy dies."
 
 		"DOTA_Tooltip_ability_omniknight_degen_aura_lua"									"Degen Aura"
 		"DOTA_Tooltip_ability_omniknight_degen_aura_lua_Description"						"Greatly degenerates the movement capabilities of enemy units that stray too near."
@@ -3000,7 +3001,7 @@ If you do not send us your steam URL or steamID we wont be adle to grant you ben
 		"furion_force_of_nature_custom_CustomHint"			"Has a reduced treant count, increased treant damage and increased treant health."
 		"ot3_abaddon_borrowed_time_CustomHint_scepter"		"Mist Coil can be procced a maximum of 5 times on each ally."
 		"dark_seer_wall_of_replica_lua_CustomHint"			"An enemy hero crossing multiple walls will create a single empowered illusion instead of multiple illusions."
-		"broodmother_spawn_spiderlings_CustomHint"			"Can spawn a maximum of %count% Spiderlings, spawning more will instead empower existing Spiderlings."
+		"broodmother_spawn_spiderlings_CustomHint"			"Can spawn a maximum of %count% spiderlings, spawning more will instead empower existing spiderlings with bonus damage, health and lifetime (max 120 lifetime)."
 		"undying_soul_rip_custom_CustomHint"				"Counts strong zombies as multiple units."
 		"undying_tombstone_custom_CustomHint"				"Spawns only one zombie for each enemy and the zombie spawn interval will empower an existing zombie instead of spawning a second zombie on that unit."
 		"venomancer_venomous_gale_CustomHint_shard"			"Creates a single empowered ward"

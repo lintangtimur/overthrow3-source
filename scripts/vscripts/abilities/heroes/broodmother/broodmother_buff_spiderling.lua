@@ -29,6 +29,9 @@ function modifier_broodmother_spiderling_lua:OnCreated(keys)
 	self.buff_hp = self.ability:GetSpecialValueFor("buff_hp")
 	self.buff_model_size = self.ability:GetSpecialValueFor("buff_model_size")
 	self.buff_model_size_cap = self.ability:GetSpecialValueFor("buff_model_size_cap")
+
+	self.lifetime_bonus = self.ability:GetSpecialValueFor("lifetime_bonus")
+	self.lifetime_extention_limit = self.ability:GetSpecialValueFor("lifetime_extention_limit")
 end
 
 function modifier_broodmother_spiderling_lua:OnRefresh(keys)
@@ -44,6 +47,17 @@ function modifier_broodmother_spiderling_lua:OnStackCountChanged()
 	self.caster:SetBaseMaxHealth(spider_hp)
 	self.caster:SetMaxHealth(spider_hp)
 	self.caster:SetHealth(spider_hp)
+
+	self:ExtendLifetime()
+end
+
+function modifier_broodmother_spiderling_lua:ExtendLifetime()
+	local modifier = self.caster:FindModifierByName("modifier_kill")
+
+	if modifier and (modifier.extended_times or 0) < self.lifetime_extention_limit then
+		modifier:SetDuration(modifier:GetRemainingTime() + self.lifetime_bonus, true)
+		modifier.extended_times = (modifier.extended_times or 0) + 1
+	end
 end
 
 function modifier_broodmother_spiderling_lua:DeclareFunctions()

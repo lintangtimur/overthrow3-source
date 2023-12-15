@@ -50,33 +50,28 @@
 	{
 		"cooldown_and_manacost"
 		{
-			"value" "8"
+			"value" "10"
 			"operator" "OP_MULTIPLY"
-			"max_count" "10"
-			"linked_special_values"
-			{
-				"duration" "0.5"
-				"tempest_duration" "0.5"
-			}
+			"max_count" "5"
 		}
 		"radius"
 		{
-			"value" "30"
+			"value" "35"
 			"operator" "OP_ADD"
 			"max_count" "10"
 		}
 		"attack_speed_bonus"
 		{
-			"value" "35"
+			"value" "40"
 			"operator" "OP_ADD"
 			"linked_special_values"
 			{
-				"attack_damage_bonus" "35"
+				"attack_damage_bonus" "40"
 			}
 		}
 		"shard_magic_resist"
 		{
-			"value" "5"
+			"value" "4"
 			"operator" "OP_MULTIPLY"
 
 			"multiplicative_target"			"100"
