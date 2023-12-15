@@ -62,7 +62,8 @@ end
 
 
 function SeasonalEvents:IsChristmas()
-	return SeasonalEvents._christmas_dates[GetSystemDate()] or false
+	-- return SeasonalEvents._christmas_dates[GetSystemDate()] or false
+	return true
 end
 
 
@@ -77,7 +78,7 @@ end
 --- Is any event running that needs to enforce epic drops?
 ---@return boolean
 function SeasonalEvents:IsAnyEpicEventRunning()
-	return SeasonalEvents:IsHalloween() or SeasonalEvents:IsChristmas() or SeasonalEvents:IsMonthlyEventActive()
+	return SeasonalEvents:IsHalloween() or SeasonalEvents:IsMonthlyEventActive()
 end
 
 SeasonalEvents:Init()

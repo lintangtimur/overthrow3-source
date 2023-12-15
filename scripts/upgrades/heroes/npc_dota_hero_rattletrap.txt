@@ -86,17 +86,9 @@
 	{
 		"cooldown_and_manacost"
 		{
-			"value" "8"
+			"value" "10"
 			"operator" "OP_MULTIPLY"
-			"max_count" "8"
-			"linked_abilities"
-			{
-				"rattletrap_overclocking"
-				{
-					"cooldown_and_manacost" "8"
-					"operator" "OP_MULTIPLY"
-				}
-			}
+			"max_count" "10"
 		}
 		"damage"
 		{

@@ -35,7 +35,7 @@
 		}
 		"damage"
 		{
-			"value" "45"
+			"value" "70"
 			"operator" "OP_ADD"
 		}
 		"delay"

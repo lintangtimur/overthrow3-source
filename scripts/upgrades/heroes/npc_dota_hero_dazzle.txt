@@ -78,7 +78,7 @@
 		{
 			"value" "-10"
 			"operator" "OP_ADD"
-			"max_count" "5"
+			"max_count" "4"
 		}
 	}
 }

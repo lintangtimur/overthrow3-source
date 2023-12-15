@@ -2326,6 +2326,7 @@ If you do not send us your steam URL or steamID we wont be adle to grant you ben
         "item_source_subscription_tier"	"Subscription"
         "item_source_currency"	"Currency"
         "item_source_treasure"	"Treasure"
+		"item_source_christmas"	"Christmas"
         "item_source_other"		"Other"
         "item_test_aura_7"	"ITEM NAME 777"
 
@@ -2563,6 +2564,9 @@ If you do not send us your steam URL or steamID we wont be adle to grant you ben
 		"emblem_ti10"						"Emblem of Divinity"
 		"newbloom_aura"						"Newbloom Aura"
 
+		"scotty_christmas_2023"					"Scotty The Penguin"
+		"scotty_christmas_2023_description"		"Small yet reliable! Christmas 2023 companion."
+
 		"map_bp_active_buffs"				"Active Buffs"
 
 
@@ -2586,6 +2590,10 @@ If you do not send us your steam URL or steamID we wont be adle to grant you ben
 		"banner_500k_header_subs"	"SUBSCRIPTIONS"
 		"banner_500k_copy"			"(click to copy)"
 		"banner_500k_description"	"Redeem code for FREE rewards!"
+
+		"banner_christmas_header"		"HAPPY CHRISTMAS"
+		"banner_christmas_copy"			"(click to copy)"
+		"banner_christmas_description"	"Redeem code for FREE rewards!"
 
 		"settings_header"				"Settings"
 		"settings_top_menu_hint"		"Open In-Game Settings"

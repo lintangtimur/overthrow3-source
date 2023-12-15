@@ -14,9 +14,9 @@
 			"operator" "OP_ADD"
 			"max_count" "10"
 		}
-		"blade_fury_damage"
+		"blade_fury_damage_per_tick"
 		{
-			"value" "25"
+			"value" "8"
 			"operator" "OP_ADD"
 		}
 	}

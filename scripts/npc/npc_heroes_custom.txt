@@ -15,7 +15,6 @@
 	"npc_dota_hero_chen"
 	{
 		"Ability2"		"chen_soul_persuasion"
-		"Ability3"		"chen_divine_favor_lua"
 		"Ability11"		"special_bonus_unique_chen_soul_persuasion_movement_speed"
 	}
 

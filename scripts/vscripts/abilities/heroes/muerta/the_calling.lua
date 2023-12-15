@@ -173,7 +173,7 @@ end
 function modifier_muerta_the_calling_lua_thinker:OnDestroy()
 	if not IsServer() then return end
 	for _, revenant in pairs(self.revenants) do
-		if IsValidEntity(revenant) then
+		if revenant and not revenant:IsNull() then
 			revenant:Destroy()
 		end
 	end

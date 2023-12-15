@@ -575,3 +575,30 @@ ITEM_DEFINITIONS["roshan_ti10"] = {
 		}
 	},
 }
+
+
+ITEM_DEFINITIONS["scotty_christmas_2023"] = {
+	slot = INVENTORY_SLOTS.PET,
+	type = ITEM_TYPES.EQUIPMENT,
+	rarity = ITEM_RARITIES.UNIQUE,
+	is_hidden = true,
+
+	unlocked_with = {
+		christmas = 2023,
+	},
+
+	model_path = "models/items/courier/scuttling_scotty_penguin/scuttling_scotty_penguin.vmdl",
+	model_scale = 1.2,
+
+	particles = {
+		{
+			-- path = "particles/killstreak/killstreak_ice_snowflakes_topbar.vpcf",
+			path = "particles/econ/courier/courier_wyvern_hatchling/courier_wyvern_hatchling_ice.vpcf",
+			attach_type = PATTACH_RENDERORIGIN_FOLLOW,
+		},
+		{
+			path = "particles/killstreak/killstreak_ice_snowflakes_topbar.vpcf",
+			attach_type = PATTACH_ABSORIGIN_FOLLOW,
+		}
+	},
+}

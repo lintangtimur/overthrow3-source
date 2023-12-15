@@ -45,23 +45,27 @@
 			}
 		}
 	}
-	"chen_divine_favor_lua"
+	"chen_divine_favor"
 	{
-		"armor"
+		"cooldown_and_manacost"
 		{
-			"value" "3.5"
-			"operator" "OP_ADD"
+			"value" "12"
+			"operator" "OP_MULTIPLY"
 		}
 		"heal_rate"
 		{
 			"value" "7"
 			"operator" "OP_ADD"
 		}
-		"aura_radius"
+		"bonus_armor"
 		{
-			"value" "180"
+			"value" "4"
 			"operator" "OP_ADD"
-			"max_count" "10"
+			"max_count" "16"
+			"linked_special_values"
+			{
+				"heal_amp" "5"
+			}
 		}
 	}
 	"chen_hand_of_god"

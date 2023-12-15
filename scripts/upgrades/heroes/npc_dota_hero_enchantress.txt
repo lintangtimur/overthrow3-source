@@ -57,17 +57,17 @@
 		}
 		"enchant_health"
 		{
-			"value" "800"
+			"value" "1000"
 			"operator" "OP_ADD"
-			"linked_special_values"
-			{
-				"enchant_armor" "4"
-			}
 		}
 		"enchant_damage"
 		{
 			"value" "50"
 			"operator" "OP_ADD"
+			"linked_special_values"
+			{
+				"damage" "15"
+			}
 			"linked_abilities"
 			{
 				"enchantress_little_friends"

@@ -47,21 +47,25 @@
 		}
 		"duration"
 		{
-			"value" "1.0"
-			"operator" "OP_ADD"
-			"linked_special_values"
-			{
-				"trail_duration" "1"
-			}
-		}
-		"trail_radius"
-		{
-			"value" "30"
+			"value" "0.6"
 			"operator" "OP_ADD"
 			"max_count" "10"
 			"linked_special_values"
 			{
-				"trail_damage" "10"
+				"trail_duration" "0.7"
+				"trail_radius" "30"
+			}
+		}
+		"trail_damage"
+		{
+			"value" "15"
+			"operator" "OP_ADD"
+			"linked_abilities"
+			{
+				"dark_seer_normal_punch"
+				{
+					"max_damage" "70"
+				}
 			}
 		}
 	}
@@ -91,13 +95,10 @@
 			"linked_special_values"
 			{
 				"tooltip_outgoing" "18"
+				"wall_damage" "25"
 			}
 			"linked_abilities"
 			{
-				"dark_seer_normal_punch"
-				{
-					"max_damage" "70"
-				}
 				// link to vanilla hidden ability for Normal Punch illusions to work with
 				"dark_seer_wall_of_replica"
 				{

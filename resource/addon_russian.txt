@@ -2274,6 +2274,10 @@
 		"banner_500k_header_subs"	"ПОДПИСЧИКОВ"
 		"banner_500k_copy"			"(нажмите чтобы скопировать)"
 		"banner_500k_description"	"Используйте код для БЕСПЛАТНЫХ наград!"
+		
+		"banner_christmas_header"		"С РОЖДЕСТВОМ!"
+		"banner_christmas_copy"			"(нажмите чтобы скопировать)"
+		"banner_christmas_description"	"Используйте код для БЕСПЛАТНЫХ наград!"
 
 		"settings_header"						"Настройки"
 		"settings_top_menu_hint"				"Открыть Внутриигровые Настройки"

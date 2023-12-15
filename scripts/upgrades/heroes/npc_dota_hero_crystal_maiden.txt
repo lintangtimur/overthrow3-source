@@ -82,7 +82,7 @@
 			"linked_special_values"
 			{
 				"proximity_mana_regen_tooltip" "6"
-				"self_mana_regen_tooltip" "12"
+				"self_mana_regen_tooltip" "14"
 			}
 		}
 	}

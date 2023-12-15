@@ -75,5 +75,10 @@
 			"value" "30"
 			"operator" "OP_ADD"
 		}
+		"curse_dps"
+		{
+			"value" "30"
+			"operator" "OP_ADD"
+		}
 	}
 }
