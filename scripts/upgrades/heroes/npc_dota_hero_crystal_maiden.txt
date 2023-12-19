@@ -28,9 +28,9 @@
 	{
 		"cooldown_and_manacost"
 		{
-			"value" "10"
+			"value" "8"
 			"operator" "OP_MULTIPLY"
-			"max_count" "8"
+			"max_count" "5"
 
 			"linked_abilities"
 			{
@@ -38,9 +38,11 @@
 				{
 					"cooldown_and_manacost"
 					{
-						"value" "10"
+						"value" "8"
 						"operator" "OP_MULTIPLY"
 					}
+					"frostbite_radius" "120"
+					"hop_distance" "120"
 				}
 			}
 		}
@@ -51,25 +53,6 @@
 			"linked_special_values"
 			{
 				"creep_damage_per_second" "30"
-			}
-		}
-		"duration"
-		{
-			"value" "0.35"
-			"operator" "OP_ADD"
-			"max_count" "5"
-			"linked_special_values"
-			{
-				"creep_duration" "1"
-			}
-
-			"linked_abilities"
-			{
-				"crystal_maiden_crystal_clone"
-				{
-					"frostbite_radius" "120"
-					"hop_distance" "120"
-				}
 			}
 		}
 	}

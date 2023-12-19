@@ -68,16 +68,16 @@
 			"value" "8"
 			"operator" "OP_MULTIPLY"
 		}
-		"damage_reduction"
+		"damage"
 		{
-			"value" "5"
+			"value" "70"
 			"operator" "OP_ADD"
-			"max_count" "2"
 		}
 		"damage_reduction_duration"
 		{
-			"value" "0.5"
+			"value" "2"
 			"operator" "OP_ADD"
+			"max_count" "5"
 		}
 	}
 }

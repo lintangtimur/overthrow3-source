@@ -36,11 +36,10 @@
 			"operator" "OP_MULTIPLY"
 			"max_count" "5"
 		}
-		"radius"
+		"pit_damage"
 		{
-			"value" "30"
+			"value" "40"
 			"operator" "OP_ADD"
-			"max_count" "5"
 		}
 	}
 	"abyssal_underlord_atrophy_aura"

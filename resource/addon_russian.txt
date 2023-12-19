@@ -1814,9 +1814,9 @@
 
 		"upgrade_DOTA_Tooltip_ability_muerta_dead_shot_radius"	"РАДИУС РИКОШЕТА"
 
-		"upgrade_DOTA_Tooltip_ability_muerta_the_calling_num_revenants"		"КОЛИЧЕСТВО ПРИЗРАКОВ"
-		"upgrade_DOTA_Tooltip_ability_muerta_the_calling_dead_zone_distance"		"РАДИУС"
-		"upgrade_DOTA_Tooltip_ability_muerta_the_calling_hit_radius"		"РАДИУС АУРЫ"
+		"upgrade_DOTA_Tooltip_ability_muerta_the_calling_lua_num_revenants"		"КОЛИЧЕСТВО ПРИЗРАКОВ"
+		"upgrade_DOTA_Tooltip_ability_muerta_the_calling_lua_dead_zone_distance"		"РАДИУС"
+		"upgrade_DOTA_Tooltip_ability_muerta_the_calling_lua_hit_radius"		"РАДИУС АУРЫ"
 		"upgrade_DOTA_Tooltip_ability_muerta_gunslinger_target_search_bonus_range"		"БОНУС ДАЛЬНОСТИ АТАКИ ДЛЯ ВТОРОГО ВЫСТРЕЛА"
 		"upgrade_DOTA_Tooltip_ability_visage_summon_familiars_familiar_armor"		"БРОНЯ ГАРГУЛИЙ"
 		"upgrade_DOTA_Tooltip_ability_meepo_megameepo_radius"		"РАДИУС ПОСАДКИ"
@@ -1858,6 +1858,7 @@
 		"upgrade_DOTA_Tooltip_ability_templar_assassin_psionic_trap_trap_radius"    "РАДИУС"
 		"upgrade_DOTA_Tooltip_ability_windrunner_shackleshot_shackle_count"    "КОЛИЧЕСТВО SHACKLE"
         "upgrade_DOTA_Tooltip_ability_naga_siren_reel_in_radius"    "ДАЛЬНОСТЬ"
+        "upgrade_DOTA_Tooltip_ability_enigma_midnight_pulse_base_damage"    "БАЗОВЫЙ УРОН"
 
 
 

@@ -28,13 +28,10 @@
 			"operator" "OP_ADD"
 			"max_count" "8"
 		}
-		"damage_percent"
+		"base_damage"
 		{
-			"value" "2.5"
-			"operator" "OP_MULTIPLY"
-
-			"multiplicative_target"			"100"
-			"multiplicative_base_value"		"11"
+			"value" "20"
+			"operator" "OP_ADD"
 		}
 	}
 	"enigma_black_hole"

@@ -25,6 +25,14 @@ local ignored_item_special_values = {
 	item_defiant_shell			= {counter_cooldown = true},
 	item_philosophers_stone		= {bonus_damage = true},
 	item_vampire_fangs			= {creep_lifesteal_reduction_pct = true},
+	item_doubloon				= {conversion_pct = true},
+	item_nemesis_curse			= {debuff_enemy_duration = true},
+	item_craggy_coat			= {active_duration = true, move_speed = true},
+	item_ancient_guardian		= {radius = true},
+	item_avianas_feather		= {flight_threshold = true},
+	item_rattlecage				= {damage_threshold = true, target_count = true},
+	item_unwavering_condition	= {magic_resist = true},
+	item_panic_button			= {health_threshold = true},
 }
 
 local ignored_generic_values = {

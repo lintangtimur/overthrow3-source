@@ -86,19 +86,6 @@
 				}
 			}
 		}
-		"radius"
-		{
-			"value" "45"
-			"operator" "OP_ADD"
-			"max_count" "10"
-			"linked_abilities"
-			{
-				"windrunner_gale_force"
-				{
-					"radius" "75"
-				}
-			}
-		}
 	}
 	"windrunner_focusfire"
 	{

@@ -88,9 +88,9 @@
 		}
 		"bonus_slow_resistance"
 		{
-			"value" "6"
+			"value" "6.25"
 			"operator" "OP_ADD"
-			"max_count"	"10"
+			"max_count"	"8"
 		}
 	}
 }

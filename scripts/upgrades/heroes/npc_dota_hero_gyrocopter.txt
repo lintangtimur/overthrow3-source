@@ -66,14 +66,10 @@
 			"value" "8"
 			"operator" "OP_MULTIPLY"
 		}
-		"damage_first"
+		"damage"
 		{
-			"value" "55"
+			"value" "100"
 			"operator" "OP_ADD"
-			"linked_special_values"
-			{
-				"damage_second" "55"
-			}
 		}
 		"radius"
 		{

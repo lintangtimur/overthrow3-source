@@ -46,7 +46,7 @@
 		}
 		"damage_reduction"
 		{
-			"value" "-7.5"
+			"value" "5"
 			"operator" "OP_ADD"
 			"max_count" "2"
 		}

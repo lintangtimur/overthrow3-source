@@ -6,7 +6,7 @@
 		{
 			"value" "5"
 			"operator" "OP_ADD"
-			"max_count" "2"
+			"max_count" "1"
 			"linked_special_values"
 			{
 				"damage_modifier_tooltip" "5"

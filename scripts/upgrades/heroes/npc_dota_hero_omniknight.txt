@@ -71,27 +71,13 @@
 		{
 			"value" "8"
 			"operator" "OP_MULTIPLY"
-			"max_count" "6"
+			"max_count" "10"
 		}
 		"duration"
 		{
-			"value" "0.7"
+			"value" "1"
 			"operator" "OP_ADD"
 			"max_count" "5"
-			"linked_special_values"
-			{
-				"duration_scepter" "1"
-			}
-		}
-		"radius"
-		{
-			"value" "180"
-			"operator" "OP_ADD"
-			"max_count" "10"
-			"linked_special_values"
-			{
-				"scepter_status_resist" "2"
-			}
 		}
 	}
 }

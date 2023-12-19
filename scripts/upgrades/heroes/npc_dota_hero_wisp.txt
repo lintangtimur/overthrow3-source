@@ -7,10 +7,14 @@
 			"value" "8"
 			"operator" "OP_MULTIPLY"
 		}
-		"movespeed"
+		"damage"
 		{
-			"value" "3"
+			"value" "10"
 			"operator" "OP_ADD"
+			"linked_special_values"
+			{
+				"movespeed" "2"
+			}
 		}
 		"tether_heal_amp"
 		{

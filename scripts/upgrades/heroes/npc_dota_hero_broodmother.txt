@@ -21,7 +21,7 @@
 	}
 	"broodmother_spin_web"
 	{
-		"heath_regen"
+		"health_regen"
 		{
 			"value" "10"
 			"operator" "OP_ADD"

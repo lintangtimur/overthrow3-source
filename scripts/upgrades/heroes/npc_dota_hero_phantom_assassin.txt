@@ -34,14 +34,9 @@
 		}
 		"duration"
 		{
-			"value" "0.2"
+			"value" "0.3"
 			"operator" "OP_ADD"
 			"max_count" "5"
-		}
-		"lifesteal_pct"
-		{
-			"value" "5"
-			"operator" "OP_ADD"
 		}
 	}
 	"phantom_assassin_blur"

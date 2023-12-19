@@ -1822,9 +1822,9 @@ If you do not send us your steam URL or steamID we wont be adle to grant you ben
 
 		"upgrade_DOTA_Tooltip_ability_muerta_dead_shot_radius"		"RICOCHET RADIUS"
 
-		"upgrade_DOTA_Tooltip_ability_muerta_the_calling_num_revenants"		"REVENANT COUNT"
-		"upgrade_DOTA_Tooltip_ability_muerta_the_calling_dead_zone_distance"		"RADIUS"
-		"upgrade_DOTA_Tooltip_ability_muerta_the_calling_hit_radius"		"HIT RADIUS"
+		"upgrade_DOTA_Tooltip_ability_muerta_the_calling_lua_num_revenants"		"REVENANT COUNT"
+		"upgrade_DOTA_Tooltip_ability_muerta_the_calling_lua_dead_zone_distance"		"RADIUS"
+		"upgrade_DOTA_Tooltip_ability_muerta_the_calling_lua_hit_radius"		"HIT RADIUS"
 		"upgrade_DOTA_Tooltip_ability_muerta_gunslinger_target_search_bonus_range"		"SECONDARY SHOT BONUS ATTACK RANGE"
 		"upgrade_DOTA_Tooltip_ability_visage_summon_familiars_familiar_armor"		"FAMILIAR ARMOR"
 		"upgrade_DOTA_Tooltip_ability_meepo_megameepo_radius"		"MOUNT RADIUS"
@@ -1866,6 +1866,7 @@ If you do not send us your steam URL or steamID we wont be adle to grant you ben
 		"upgrade_DOTA_Tooltip_ability_templar_assassin_psionic_trap_trap_radius"    "RADIUS"
 		"upgrade_DOTA_Tooltip_ability_windrunner_shackleshot_shackle_count"    "SHACKLE COUNT"
 		"upgrade_DOTA_Tooltip_ability_naga_siren_reel_in_radius"    "RANGE"
+		"upgrade_DOTA_Tooltip_ability_enigma_midnight_pulse_base_damage"    "BASE DAMAGE"
 
 
 		"team_selection_empty_slot"	"Empty Slot"
@@ -2953,7 +2954,6 @@ If you do not send us your steam URL or steamID we wont be adle to grant you ben
 		"venomancer_poison_nova_CustomHint"					"Has a reduced duration and increased damage."
 		"invoker_sun_strike_CustomHint_scepter"				"Cataclysm creates 1 Sun Strike per enemy instead of 2."
 		"arc_warden_spark_wraith_CustomHint"				"Has a reduced duration."
-		"abyssal_underlord_pit_of_malice_CustomHint"		"Has a reduced duration."
 		"visage_summon_familiars_CustomHint"				"Has a reduced cooldown."
 		"dragon_knight_elder_dragon_form_CustomHint"		"Has a reduced cooldown and duration."
 		"night_stalker_darkness_CustomHint"					"Has a reduced cooldown."
