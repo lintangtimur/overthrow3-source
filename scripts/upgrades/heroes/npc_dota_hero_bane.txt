@@ -19,7 +19,7 @@
 		}
 		"enfeeble_tick_damage"
 		{
-			"value" "12"
+			"value" "10"
 			"operator" "OP_ADD"
 		}
 	}
@@ -32,7 +32,7 @@
 		}
 		"brain_sap_damage"
 		{
-			"value" "60"
+			"value" "45"
 			"operator" "OP_ADD"
 		}
 		"shard_radius"
@@ -52,17 +52,17 @@
 		{
 			"value" "8"
 			"operator" "OP_MULTIPLY"
-			"max_count" "10"
+			"max_count" "3"
 		}
 		"nightmare_invuln_time"
 		{
-			"value" "0.4"
+			"value" "0.5"
 			"operator" "OP_ADD"
-			"max_count" "5"
+			"max_count" "4"
 		}
 		"bonus_attack_speed"
 		{
-			"value" "45"
+			"value" "60"
 		}
 	}
 	"bane_fiends_grip"
@@ -71,6 +71,7 @@
 		{
 			"value" "8"
 			"operator" "OP_MULTIPLY"
+			"max_count" "15"
 		}
 		"fiend_grip_damage"
 		{

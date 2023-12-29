@@ -81,6 +81,13 @@ function CustomChat:Init()
 	EventStream:Listen("custom_chat:update_client_request", self.UpdateClient, self)
 	EventStream:Listen("custom_chat:get_hero_ranks", self.UpdateHeroRanksResponse, self)
 	EventStream:Listen("custom_chat:update_hero_rank", self.UpdateHeroRanks, self)
+	EventStream:Listen("custom_chat:update_guild_tag_colors", self.UpdateGuildColors, self)
+end
+
+function CustomChat:UpdateGuildColors(event)
+	if self.guild_tag_colors then return end
+
+	self.guild_tag_colors = event.colors
 end
 
 function CustomChat:UpdateHeroRanksResponse(event)
@@ -123,23 +130,9 @@ function CustomChat:UpdateClient(event)
 	local player = PlayerResource:GetPlayer(player_id)
 	if not IsValidEntity(player) then return end
 
-	--Unique for each custom game
-	local team_list = GameLoop.current_layout.teamlist
-	local max_players_per_team = GameLoop.current_layout.player_count
-
-	if not self.parsed_teams then
-		self.parsed_teams = {}
-		for _, team_id in pairs(team_list) do
-			self.parsed_teams[team_id] = {}
-			for i = 1, max_players_per_team do
-				self.parsed_teams[team_id][i] = PlayerResource:GetNthPlayerIDOnTeam(team_id, i)
-			end
-		end
-	end
-
 	CustomGameEventManager:Send_ServerToPlayer(player, "custom_chat:update_client", {
-		parsed_teams = self.parsed_teams,
 		hero_ranks = self.hero_ranks,
+		guild_tag_colors = self.guild_tag_colors or {}
 	})
 end
 
@@ -178,6 +171,15 @@ function CustomChat:MessageToTeam(sender_id, team_number, main_token, tokens, ab
 	if not sender_id then return end
 
 	CustomGameEventManager:Send_ServerToTeam(team_number, "custom_chat:message", {
+		sender_id = sender_id,
+		main_token = main_token,
+		tokens = tokens,
+		abilities = abilities,
+		is_team = true,
+		extra_data = extra_data,
+	})
+end
+am(team_number, "custom_chat:message", {
 		sender_id = sender_id,
 		main_token = main_token,
 		tokens = tokens,

@@ -119,15 +119,15 @@
 				}
 			}
 		}
-		"speed"
+		"damage_per_second"
 		{
-			"value" "90"
+			"value" "7"
 			"operator" "OP_ADD"
 			"linked_abilities"
 			{
 				"shredder_chakram_2"
 				{
-					"speed" "90"
+					"damage_per_second" "7"
 				}
 			}
 		}
@@ -146,18 +146,18 @@
 		}
 		"pass_damage"
 		{
-			"value" "14"
+			"value" "10"
 			"operator" "OP_ADD"
 			"linked_special_values"
 			{
-				"damage_per_second" "7"
+				"speed" "90"
 			}
 			"linked_abilities"
 			{
 				"shredder_chakram_2"
 				{
-					"pass_damage" "14"
-					"damage_per_second" "7"
+					"pass_damage" "10"
+					"speed" "90"
 				}
 			}
 		}

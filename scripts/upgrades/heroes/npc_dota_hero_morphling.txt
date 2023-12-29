@@ -6,6 +6,7 @@
 		{
 			"value" "8"
 			"operator" "OP_MULTIPLY"
+			"max_count" "15"
 		}
 		"damage"
 		{
@@ -17,10 +18,6 @@
 			"value" "50"
 			"operator" "OP_ADD"
 			"max_count" "10"
-			"linked_special_values"
-			{
-				"speed" "125"
-			}
 		}
 	}
 	"morphling_adaptive_strike_agi"
@@ -122,6 +119,12 @@
 					
 					"multiplicative_target" "0"
 					"multiplicative_base_value" "300"
+				}
+			}
+		}
+	}
+}
+e_value" "300"
 				}
 			}
 		}

@@ -9,7 +9,7 @@
 		}
 		"heal"
 		{
-			"value" "60"
+			"value" "50"
 			"operator" "OP_ADD"
 		}
 		"radius"
@@ -23,17 +23,17 @@
 	{
 		"cooldown_and_manacost"
 		{
-			"value" "8"
+			"value" "7"
 			"operator" "OP_MULTIPLY"
 			"max_count" "10"
 		}
 		"base_strength"
 		{
-			"value" "10"
+			"value" "8"
 			"operator" "OP_ADD"
 			"linked_special_values"
 			{
-				"base_hpregen" "7"
+				"base_hpregen" "6"
 			}
 		}
 		"strength_bonus"
@@ -81,3 +81,4 @@
 		}
 	}
 }
+

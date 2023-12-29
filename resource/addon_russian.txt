@@ -163,6 +163,7 @@
 		"DOTA_Tooltip_ability_dark_seer_wall_of_replica_lua_tooltip_outgoing_scepter"		"НАНОСИМЫЙ УРОН ИЛЛЮЗИЙ СО СКИПЕТРОМ:"
 		"DOTA_Tooltip_ability_dark_seer_wall_of_replica_lua_movement_slow"		            "ЗАМЕДЛЕНИЕ СКОРОСТИ ПЕРЕДВИЖЕНИЯ:"
 		"DOTA_Tooltip_ability_dark_seer_wall_of_replica_lua_slow_duration"		            "ДЛИТЕЛЬНОСТЬ ЗАМЕДЛЕНИЯ:"
+        "DOTA_Tooltip_ability_dark_seer_wall_of_replica_lua_wall_damage"					"УРОН:"
 
 		"DOTA_Tooltip_modifier_dark_seer_wall_of_replica_lua_empower"						"Wall of Replica Empower"
 		"DOTA_Tooltip_modifier_dark_seer_wall_of_replica_lua_empower_Description"			"Иллюзия усилена %dMODIFIER_PROPERTY_TOOLTIP% стаенами. Наносит на %MODIFIER_PROPERTY_TOTALDAMAGEOUTGOING_PERCENTAGE%%% больше и получает на %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%% меньше урона"
@@ -2718,7 +2719,6 @@
 		"venomancer_poison_nova_CustomHint"					"Имеет уменьшенную длительность и увеличенный урон."
 		"invoker_sun_strike_CustomHint_scepter"				"Создается только 1 Sun Strike рядом с врагом, а не 2."
 		"arc_warden_spark_wraith_CustomHint"				"Имеет уменьшенную перезарядку."
-		"abyssal_underlord_pit_of_malice_CustomHint"		"Имеет уменьшенную перезарядку."
 		"visage_summon_familiars_CustomHint"				"Имеет уменьшенную перезарядку."
 		"dragon_knight_elder_dragon_form_CustomHint"		"Имеет уменьшенную перезарядку и длительнось."
 		"night_stalker_darkness_CustomHint"					"Имеет уменьшенную перезарядку."
@@ -2770,7 +2770,7 @@
 		"venomancer_plague_ward_custom_CustomHint"		"Имеет уменьшенную длительность и увеличнный урон."
 		"furion_force_of_nature_custom_CustomHint"		"Призывает меньшее число энтов, но они имеют увеличенные урон и здоровье."
 		"ot3_abaddon_borrowed_time_CustomHint_scepter"	"Mist Coil может сработать максимум 5 раз на каждого союзника."
-		"dark_seer_wall_of_replica_lua_CustomHint"		"Если вражесккий герой пересечет несколько стен, он создаст одну усиленную иллюзию вместо нескольких стандартных."
+		"dark_seer_wall_of_replica_lua_CustomHint"		"Если вражесккий герой пересечет несколько стен, он создаст одну усиленную иллюзию вместо нескольких стандартных. Стенка наносит урон каждый раз, когда иллюзия усиленна."
 		"broodmother_spawn_spiderlings_CustomHint"		"Может призвать максимум %count% паучков, попытка призыва пучков сверх этого числа будет усилять существующих паучков с бонусным уроном, здоровьем и временем жизни (макс. время жизни - 120)."
 		"undying_soul_rip_custom_CustomHint"			"Считает усиленных зомби как несколько существ."
 		"undying_tombstone_custom_CustomHint"			"Создает только одного зомби для каждого врага, зомби становится сильнее после каждого тика."
@@ -2781,6 +2781,7 @@
 		"ursa_overpower_CustomHint"						"Уменьшено количество атак."
 		"nyx_assassin_burrow_CustomHint"				"Уменьшено снижение урона от закопания."
         "muerta_the_calling_lua_CustomHint"				"Вражеские герои, убитые внутри Calling, увеличивают количество призраков до максимального значения %max_num_revenants%, а каждый новый появившийся призрак уменьшает продолжительность действия на 1 сек."
+        "leshrac_pulse_nova_CustomHint"					"Уменьшен наносимый урон."
 
 		"DOTA_Tooltip_Ability_item_burning_aura_source"			"Огненная Аура"
 

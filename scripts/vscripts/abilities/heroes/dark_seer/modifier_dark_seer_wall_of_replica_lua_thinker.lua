@@ -24,6 +24,15 @@ function modifier_dark_seer_wall_of_replica_lua_thinker:OnCreated(kv)
 
 	self.wall_start = self.origin + direction * width / 2
 	self.wall_end = self.origin - direction * width / 2
+	self.wall_damage = self.ability:GetSpecialValueFor("wall_damage")
+
+	self.damage_table = {
+		attacker 		= self.caster,
+		ability 		= self.ability,
+		damage_flags 	= DOTA_DAMAGE_FLAG_NONE,
+		damage 			= self.wall_damage,
+		damage_type 	= DAMAGE_TYPE_MAGICAL,
+	}
 
 	local interval = 0.1
 
@@ -140,4 +149,7 @@ function modifier_dark_seer_wall_of_replica_lua_thinker:UpdateIllusion(source_en
 		OrderType = DOTA_UNIT_ORDER_ATTACK_TARGET,
 		TargetIndex = source_entity_index,
 	})
+
+	self.damage_table.victim = source
+	ApplyDamage(self.damage_table)
 end

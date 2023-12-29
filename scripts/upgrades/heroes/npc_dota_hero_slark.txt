@@ -6,7 +6,11 @@
 		{
 			"value" "8"
 			"operator" "OP_MULTIPLY"
-			"max_count" "10"
+			"max_count" "5"
+			"linked_special_values"
+			{
+				"delay" "-0.2"
+			}
 		}
 		"radius"
 		{

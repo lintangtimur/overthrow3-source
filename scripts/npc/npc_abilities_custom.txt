@@ -1790,12 +1790,12 @@
 
 		// Time
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityChannelTime"			"2.75 3.5 4.25 5"
+		"AbilityChannelTime"			"2.4 3.0 3.6 4.2"
 		"AbilityCooldown"				"16 14 12 10"
 
 		// Cost
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"				"140 150 160 170"
+		"AbilityManaCost"				"125 140 155 170"
 
 		// Special
 		//-------------------------------------------------------------------------------------------------------------
@@ -1804,12 +1804,12 @@
 			"tick_interval"								"0.1"
 			"total_damage"
 			{
-				"value"									"60 160 260 360"
-				"special_bonus_unique_shadow_shaman_6"	"+140"
+				"value"									"75 150 225 300"
+				"special_bonus_unique_shadow_shaman_6"	"+170"
 			}
 			"channel_time"
 			{
-				"value"									"2.75 3.5 4.25 5"
+				"value"									"2.4 3.0 3.6 4.2"
 				"special_bonus_unique_shadow_shaman_2"	"+1"
 			}
 			"AbilityCastRange"
@@ -1823,7 +1823,7 @@
 				"value"									"0"
 				"special_bonus_shard"					"+4"
 			}
-			"ward_duration"								"7"
+			"ward_duration"								"6"
 			"ward_spawn_radius"							"100"
 		}
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_3"
@@ -1893,6 +1893,7 @@
 
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_VECTOR_TARGETING"
 		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
 		"FightRecapLevel"				"2"
 		"AbilitySound"					"Hero_Dark_Seer.Wall_of_Replica_Start"
@@ -1942,6 +1943,7 @@
 
 			"damage_per_wall"							"100"
 			"model_scale_per_wall"						"0.25"
+			"wall_damage"								"25 40 55"
 		}
 	}
 

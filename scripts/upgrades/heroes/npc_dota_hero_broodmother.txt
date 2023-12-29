@@ -73,7 +73,7 @@
 			"operator" "OP_ADD"
 			"linked_special_values"
 			{
-				"damage_bonus" "10"
+				"damage_bonus" "5"
 			}
 			"linked_abilities"
 			{
@@ -83,7 +83,7 @@
 				}
 				"broodmother_buff_spiderling_lua"
 				{
-					"buff_damage" "2"
+					"buff_damage" "1"
 				}
 			}
 		}
@@ -109,3 +109,4 @@
 		}
 	}
 }
+

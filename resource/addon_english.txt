@@ -2719,6 +2719,7 @@ If you do not send us your steam URL or steamID we wont be adle to grant you ben
 		"DOTA_Tooltip_ability_dark_seer_wall_of_replica_lua_tooltip_outgoing_scepter"		"%SCEPTER REPLICA DAMAGE:"
 		"DOTA_Tooltip_ability_dark_seer_wall_of_replica_lua_movement_slow"		            "%MOVEMENT SLOW:"
 		"DOTA_Tooltip_ability_dark_seer_wall_of_replica_lua_slow_duration"		            "SLOW DURATION:"
+		"DOTA_Tooltip_ability_dark_seer_wall_of_replica_lua_wall_damage"					"DAMAGE:"
 
 		"DOTA_Tooltip_modifier_dark_seer_wall_of_replica_lua_empower"						"Wall of Replica Empower"
 		"DOTA_Tooltip_modifier_dark_seer_wall_of_replica_lua_empower_Description"			"Illusion powered by %dMODIFIER_PROPERTY_TOOLTIP% walls. Deals %MODIFIER_PROPERTY_TOTALDAMAGEOUTGOING_PERCENTAGE%%% more damage, takes %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%% less damage"
@@ -3008,7 +3009,7 @@ If you do not send us your steam URL or steamID we wont be adle to grant you ben
 		"venomancer_plague_ward_custom_CustomHint"			"Has a reduced duration and increased ward damage."
 		"furion_force_of_nature_custom_CustomHint"			"Has a reduced treant count, increased treant damage and increased treant health."
 		"ot3_abaddon_borrowed_time_CustomHint_scepter"		"Mist Coil can be procced a maximum of 5 times on each ally."
-		"dark_seer_wall_of_replica_lua_CustomHint"			"An enemy hero crossing multiple walls will create a single empowered illusion instead of multiple illusions."
+		"dark_seer_wall_of_replica_lua_CustomHint"			"An enemy hero crossing multiple walls will create a single empowered illusion instead of multiple illusions. Wall damage applies every time an illusion is empowered."
 		"broodmother_spawn_spiderlings_CustomHint"			"Can spawn a maximum of %count% spiderlings, spawning more will instead empower existing spiderlings with bonus damage, health and lifetime (max 120 lifetime)."
 		"undying_soul_rip_custom_CustomHint"				"Counts strong zombies as multiple units."
 		"undying_tombstone_custom_CustomHint"				"Spawns only one zombie for each enemy and the zombie spawn interval will empower an existing zombie instead of spawning a second zombie on that unit."
@@ -3019,6 +3020,7 @@ If you do not send us your steam URL or steamID we wont be adle to grant you ben
 		"ursa_overpower_CustomHint"							"Has reduced attacks."
 		"nyx_assassin_burrow_CustomHint"					"Has reduced burrow damage reduction."
 		"muerta_the_calling_lua_CustomHint"					"Enemy heroes killed inside the Calling increase the number of revenants to a maximum of %max_num_revenants% and each new revenant added reduces the duration by 1s."
+		"leshrac_pulse_nova_CustomHint"						"Has reduced damage."
 
 		"DOTA_Tooltip_ability_special_bonus_unique_lich_chain_frost_cdr_custom"		"-{s:bonus_AbilityCooldown}s Chain Frost Cooldown"
 		"DOTA_Tooltip_ability_special_bonus_unique_warlock_chaos_offering_cdr_custom"		"-{s:bonus_AbilityCooldown}s Chaotic Offering Cooldown"

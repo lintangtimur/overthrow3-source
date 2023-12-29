@@ -22,18 +22,14 @@
 	{
 		"rot_radius"
 		{
-			"value" "30"
+			"value" "25"
 			"operator" "OP_ADD"
 			"max_count" "10"
 		}
 		"rot_damage"
 		{
-			"value" "12"
+			"value" "16"
 			"operator" "OP_ADD"
-			"linked_special_values"
-			{
-				"scepter_rot_damage_bonus" "10"
-			}
 		}
 	}
 	"pudge_flesh_heap"
@@ -84,6 +80,14 @@
 			"talents"
 			{
 				"special_bonus_unique_pudge_3"	"x1.8"
+			}
+
+			"operator" "OP_ADD"
+			"max_count" "10"
+		}
+	}
+}
+udge_3"	"x1.8"
 			}
 
 			"operator" "OP_ADD"
