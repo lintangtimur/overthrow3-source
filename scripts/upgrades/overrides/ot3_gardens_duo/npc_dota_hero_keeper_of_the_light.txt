@@ -57,7 +57,7 @@
 				}
 				"keeper_of_the_light_will_o_wisp"
 				{
-					wisp_damage" "35"
+					"wisp_damage" "35"
 				}
 			}
 		}

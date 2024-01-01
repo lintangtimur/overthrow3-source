@@ -2226,6 +2226,14 @@
 		"season_reset_4_golden_description"		"Награждаются игроки, занявшие ТОП-10 в таблице лидеров Overthrow 3.0 в конце четвертого сезона."
 		"season_reset_4_silver"					"Challenger's Aura (Season 4)"
 		"season_reset_4_silver_description"		"Награждаются игроки, занявшие ТОП-100 в таблице лидеров Overthrow 3.0 в конце четвертого сезона."
+		"season_reset_5_golden"					"Champion's Aura (Season 5)"
+		"season_reset_5_golden_description"		"Награждаются игроки, занявшие ТОП-10 в таблице лидеров Overthrow 3.0 в конце четвертого сезона."
+		"season_reset_5_silver"					"Challenger's Aura (Season 5)"
+		"season_reset_5_silver_description"		"Награждаются игроки, занявшие ТОП-100 в таблице лидеров Overthrow 3.0 в конце четвертого сезона."
+		"season_reset_6_golden"					"Champion's Aura (Season 6)"
+		"season_reset_6_golden_description"		"Награждаются игроки, занявшие ТОП-10 в таблице лидеров Overthrow 3.0 в конце четвертого сезона."
+		"season_reset_6_silver"					"Challenger's Aura (Season 6)"
+		"season_reset_6_silver_description"		"Награждаются игроки, занявшие ТОП-100 в таблице лидеров Overthrow 3.0 в конце четвертого сезона."
 
 		"game_breaker"								"Игрок Против Правил"
 		"game_breaker_description"					"Даруется игрокам как награда за помощь в исправлении некоторых багов/уязвимостей <3"
@@ -2276,7 +2284,7 @@
 		"banner_500k_header_subs"	"ПОДПИСЧИКОВ"
 		"banner_500k_copy"			"(нажмите чтобы скопировать)"
 		"banner_500k_description"	"Используйте код для БЕСПЛАТНЫХ наград!"
-		
+
 		"banner_christmas_header"		"С РОЖДЕСТВОМ!"
 		"banner_christmas_copy"			"(нажмите чтобы скопировать)"
 		"banner_christmas_description"	"Используйте код для БЕСПЛАТНЫХ наград!"

@@ -1,22 +1,15 @@
 shadow_shaman_shackles_lua = class({})
 LinkLuaModifier("modifier_shadow_shaman_serpent_ward_chc", "abilities/heroes/shadow_shaman/modifier_shadow_shaman_serpent_ward_chc", LUA_MODIFIER_MOTION_NONE)
+LinkLuaModifier("modifier_shadow_shaman_shackles_dummy_duration", "abilities/heroes/shadow_shaman/modifier_shadow_shaman_shackles_dummy_duration", LUA_MODIFIER_MOTION_NONE)
 
 function shadow_shaman_shackles_lua:GetAssociatedSecondaryAbilities()
 	return "shadow_shaman_mass_serpent_ward_lua"
 end
 
 function shadow_shaman_shackles_lua:GetChannelTime()
-	self.duration = self:GetSpecialValueFor("channel_time")
+	if self.channel_duration then return self.channel_duration end
 
-	if IsClient() then
-		return self.duration
-	end
-
-	if IsValidEntity(self.shackle_target) then
-		return self.duration * (1 - self.shackle_target:GetStatusResistance())
-	end
-
-	return 0
+	return self:GetSpecialValueFor("channel_time")
 end
 
 function shadow_shaman_shackles_lua:OnSpellStart()
@@ -34,10 +27,14 @@ function shadow_shaman_shackles_lua:OnSpellStart()
 		return
 	end
 
-	local duration = self:GetSpecialValueFor("channel_time")
+	local duration = self:GetSpecialValueFor("channel_time") * (1 - target:GetStatusResistance())
 
 	-- Total Damage and tick damage is calculated in the modifier
-	target:AddNewModifier(caster, self, "modifier_shadow_shaman_shackles", {duration = duration})
+	local modifier = target:AddNewModifier(caster, self, "modifier_shadow_shaman_shackles", {duration = duration})
+
+	if modifier then
+		caster:AddNewModifier(caster, self, "modifier_shadow_shaman_shackles_dummy_duration", {duration = modifier:GetDuration()})
+	end
 
 	--Summon Shard Serpent Wards
 	local msw_ability = caster:FindAbilityByName("shadow_shaman_mass_serpent_ward_lua")
@@ -63,7 +60,10 @@ function shadow_shaman_shackles_lua:OnSpellStart()
 end
 
 function shadow_shaman_shackles_lua:OnChannelFinish()
-	StopSoundOn("Hero_ShadowShaman.Shackles", self:GetCaster())
+	local caster = self:GetCaster()
+	caster:RemoveModifierByName("modifier_shadow_shaman_shackles_dummy_duration")
+
+	StopSoundOn("Hero_ShadowShaman.Shackles", caster)
 	if self.shackles_pfx then
 		ParticleManager:DestroyParticle(self.shackles_pfx, false)
 		ParticleManager:ReleaseParticleIndex(self.shackles_pfx)

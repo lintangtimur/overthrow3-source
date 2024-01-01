@@ -201,6 +201,7 @@ function modifier_muerta_the_calling_lua_thinker:OnDeath(keys)
 	if not keys.unit:HasModifier("modifier_muerta_the_calling_aura_slow") then return end
 	if keys.unit:GetTeamNumber() == self.parent:GetTeamNumber() then return end
 	if not keys.unit:IsHero() then return end
+	if keys.unit:IsIllusion() then return end
 	if (keys.unit:GetAbsOrigin() - self.parent:GetAbsOrigin()):Length2D() > self.radius then return end
 
 	self:OnRefresh()

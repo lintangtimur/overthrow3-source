@@ -332,3 +332,59 @@ ITEM_DEFINITIONS["season_reset_4_golden"] = {
 		},
 	},
 }
+
+ITEM_DEFINITIONS["season_reset_5_silver"] = {
+	slot = INVENTORY_SLOTS.AURA,
+	type = ITEM_TYPES.EQUIPMENT,
+	rarity = ITEM_RARITIES.UNIQUE,
+
+	particles = {
+		{
+			path = "particles/cosmetic/auras/season_reward/005/s4_23_silver_reward_alt_version_1.vpcf",
+			attach_type = PATTACH_POINT_FOLLOW,
+			control_points = COMMON_AURA_CONTROL_POINTS,
+		},
+	},
+}
+
+ITEM_DEFINITIONS["season_reset_5_golden"] = {
+	slot = INVENTORY_SLOTS.AURA,
+	type = ITEM_TYPES.EQUIPMENT,
+	rarity = ITEM_RARITIES.UNIQUE,
+
+	particles = {
+		{
+			path = "particles/cosmetic/auras/season_reward/005/s4_23_gold_reward_alt_version_1.vpcf",
+			attach_type = PATTACH_POINT_FOLLOW,
+			control_points = COMMON_AURA_CONTROL_POINTS,
+		},
+	},
+}
+
+ITEM_DEFINITIONS["season_reset_6_silver"] = {
+	slot = INVENTORY_SLOTS.AURA,
+	type = ITEM_TYPES.EQUIPMENT,
+	rarity = ITEM_RARITIES.UNIQUE,
+
+	particles = {
+		{
+			path = "particles/cosmetic/auras/season_reward/006/s1_24_silver_reward.vpcf",
+			attach_type = PATTACH_POINT_FOLLOW,
+			control_points = COMMON_AURA_CONTROL_POINTS,
+		},
+	},
+}
+
+ITEM_DEFINITIONS["season_reset_6_golden"] = {
+	slot = INVENTORY_SLOTS.AURA,
+	type = ITEM_TYPES.EQUIPMENT,
+	rarity = ITEM_RARITIES.UNIQUE,
+
+	particles = {
+		{
+			path = "particles/cosmetic/auras/season_reward/006/s1_24_gold_reward.vpcf",
+			attach_type = PATTACH_POINT_FOLLOW,
+			control_points = COMMON_AURA_CONTROL_POINTS,
+		},
+	},
+}

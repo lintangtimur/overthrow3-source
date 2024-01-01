@@ -10,7 +10,37 @@
 		}
 		"damage"
 		{
-			"value" "30"
+			"value" "35"
+			"operator" "OP_ADD"
+		}
+	}
+	"enigma_demonic_conversion"
+	{
+		"cooldown_and_manacost"
+		{
+			"value" "12"
+			"operator" "OP_MULTIPLY"
+		}
+		"eidelon_max_health"
+		{
+			"value" "70"
+			"operator" "OP_ADD"
+
+			"linked_special_values"
+			{
+				"eidolon_magic_resist"
+				{
+					"value" "3.5"
+					"operator" "OP_MULTIPLY"
+
+					"multiplicative_target"			"100"
+					"multiplicative_base_value"		"60"
+				}
+			}
+		}
+		"eidelon_base_damage"
+		{
+			"value" "25"
 			"operator" "OP_ADD"
 		}
 	}
